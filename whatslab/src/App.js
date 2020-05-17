@@ -1,25 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import InputseAreaDeMensagens from './components/Inputs/InputseAreaDeMensagens'
 
-function App() {
-  return (
+class App extends React.Component {
 
-    <>
-      <div className="area-post">
-      ÁREA DE POSTAGEM
-      </div>
-      
-      
-      <div className="inputs">
-      <input placeholder="Usuário"></input>
-      <input placeholder="Mensagem"></input>
-      <button>Enviar</button>
-      </div>
-      
-      
-    </>
-  );
+  render(){
+      return(
+        <InputseAreaDeMensagens />
+      )
+    }
 }
-
 export default App;
